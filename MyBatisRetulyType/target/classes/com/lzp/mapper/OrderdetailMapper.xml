@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzp.mapper.OrderdetailMapper">
+    <resultMap id="oditems" type="orderdetail">
+        <id column="odid" property="odid"/>
+        <result column="orderid" property="orderid"/>
+        <result column="itemnum" property="itemnum"/>
+        <association property="items" javaType="com.lzp.pojo.Items"
+                     select="com.lzp.mapper.ItemsMapper.selectByIid"
+                     column="itemid"/>
+    </resultMap>
+
+    <select id="selectLazyLoadByOdid" parameterType="int" resultMap="oditems" >
+        select * from orderdetail where odid=#{odid}
+    </select>
+</mapper>

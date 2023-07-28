@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="servletconfig:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73696570-b354-4b82-9667-ce6be1c5dcbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Javase/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Javase/TestIo/src/com/testio/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisMapper/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMStudy/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMsb/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/java/cn/itcast/redisdemo/RedisDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/java/cn/itcast/redisdemo/web/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/test/java/cn/itcast/redisdemo/RedisDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/entity/AccountFreeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/mapper/AccountFreezeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/AccountTCCService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountTCCServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/web/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/client/AccountClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/client/StorageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/StorageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/entity/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/mapper/StorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/web/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/CloudStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/CloudStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/clients/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/clients/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/mapper/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/TestIo/src/com/testio/io1/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/TestIo/src/com/testio/io1/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/TestJDBC/src/com/test/jdbc1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/TestJDBC/src/com/test/jdbc1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/TestThread/src/com/test3/thread3/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/TestThread/src/com/test3/thread3/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/TestThread/src/com/test3/thread4/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/TestThread/src/com/test3/thread4/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/out/production/TestIo/com/testio/io1/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/out/production/TestIo/com/testio/io1/Test02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/out/production/TestIo/com/testio/io6/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/out/production/TestIo/com/testio/io6/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/out/production/TestIo/com/testio/io6/TestRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/out/production/TestIo/com/testio/io6/TestRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/out/production/TestJDBC/com/test/jdbc1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/out/production/TestJDBC/com/test/jdbc1/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javase/out/production/TestThread/com/test3/thread3/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Javase/out/production/TestThread/com/test3/thread3/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletcontext/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servletcontext/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-redis/src/main/resources/com/lzp/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-redis/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/Springboot01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
+  <component name="ProjectId" id="2EQHKF3TvedmlWd90nOyfATLhCC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Idea_workspace/loginProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/servletconfig" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="servletconfig:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/servletconfig" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="33a1e83c-346c-4919-a85f-39a602083c79" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57198" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="servletconfig:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73696570-b354-4b82-9667-ce6be1c5dcbc" name="Changes" comment="" />
+      <created>1662520823428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662520823428</updated>
+      <workItem from="1662520824589" duration="2171000" />
+      <workItem from="1662969311457" duration="999000" />
+      <workItem from="1690376862872" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

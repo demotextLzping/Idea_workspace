@@ -1,0 +1,6 @@
+com\lzp\springwebscoket\config\WebSocketConfig.class
+com\lzp\springwebscoket\controller\WebSocketEventListener.class
+com\lzp\springwebscoket\model\ChatMessage$MessageType.class
+com\lzp\springwebscoket\controller\ChatController.class
+com\lzp\springwebscoket\SpringWebScoketApplication.class
+com\lzp\springwebscoket\model\ChatMessage.class

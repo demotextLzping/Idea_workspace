@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/lang
+       http://www.springframework.org/schema/lang/spring-lang.xsd">
+    <bean id="user" class="com.lzp.pojo.User">
+        <constructor-arg name="id" value="11"/>
+        <constructor-arg name="name" value="张三"/>
+        <constructor-arg name="age" value="22"/>
+        <constructor-arg name="sex" value="男"/>
+    </bean>
+
+
+    <util:list id="scores">
+        <value>100</value>
+        <value>99</value>
+        <value>88</value>
+    </util:list>
+    <bean id="stuAutoWire" class="com.lzp.pojo.Student" autowire="constructor"/>
+<!--    构造方法注入-->
+<!--    <bean id="student" class="com.lzp.pojo.Student">-->
+<!--        <constructor-arg name="id" value="1111"/>-->
+<!--        <constructor-arg name="name" value="李四"/>-->
+<!--        <constructor-arg name="age" value="23"/>-->
+<!--        <constructor-arg name="user" ref="user"/>-->
+<!--    </bean>-->
+
+<!--    属性注入 name的值是 实体类中set方法 去除set后 小写其余字符得到的字符串-->
+    <bean id="student" class="com.lzp.pojo.Student">
+        <property name="id" value="1112"/>
+        <property name="name" value="李四"/>
+        <property name="age" value="23"/>
+        <property name="user" ref="user"/>
+<!--        数组-->
+<!--        <property name="scoreArr">-->
+<!--            <array>-->
+<!--                <value>90</value>-->
+<!--                <value>89</value>-->
+<!--                <value>88</value>-->
+<!--                <value>87</value>-->
+<!--            </array>-->
+<!--        </property>-->
+<!--列表-->
+<!--        <property name="scoreList">-->
+<!--            <list>-->
+<!--                <value>90</value>-->
+<!--                <value>89</value>-->
+<!--                <value>88</value>-->
+<!--                <value>87</value>-->
+<!--            </list>-->
+<!--        </property>-->
+
+        <property name="scoreList" ref="scores"/>
+        <property name="scoreArr" ref="scores"/>
+        <property name="scoreSet" ref="scores"/>
+<!--        set集合-->
+<!--        <property name="scoreSet">-->
+<!--            <set>-->
+<!--                <value>90</value>-->
+<!--                <value>89</value>-->
+<!--                <value>88</value>-->
+<!--                <value>87</value>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--        map集合-->
+<!--        <property name="scoreMap">-->
+<!--           <map>-->
+<!--               <entry>-->
+<!--                   <key>-->
+<!--                       <value>语文</value>-->
+<!--                   </key>-->
+<!--                   <value>99</value>-->
+<!--               </entry>-->
+<!--               <entry>-->
+<!--                   <key>-->
+<!--                       <value>数学</value>-->
+<!--                   </key>-->
+<!--                   <value>88</value>-->
+<!--               </entry>-->
+<!--           </map>-->
+<!--        </property>-->
+<!--        properties-->
+<!--        <property name="pro">-->
+<!--            <props>-->
+<!--                <prop key="userName">root</prop>-->
+<!--                <prop key="passWord">123456</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+     </bean>
+
+</beans>

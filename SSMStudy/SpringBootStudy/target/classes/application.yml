@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /springbootStudy
+#在application.properties/或者application.yml文件中没有添加数据库配置信息.
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mytestdb?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  type-aliases-package: com.lzp.pojo
+  mapper-locations: classpath:com.lzp.mapper/*.xml  #如果mapper映射文件名和上面的文件夹命名不一样需要指定文件位置，同时需要扫描部文件
+
+

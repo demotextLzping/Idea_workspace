@@ -1,0 +1,5 @@
+com\lzp\pojo\Dept.class
+com\lzp\service\DeptService.class
+com\lzp\controller\DeptController.class
+com\lzp\mapper\DeptMapper.class
+com\lzp\service\impl\DeptServiceImpl.class

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91963cf6-2f54-41a7-a2cf-a1029bf8c029" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestIo/src/com/testio/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisMapper/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMStudy/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMsb/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/java/cn/itcast/redisdemo/RedisDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/java/cn/itcast/redisdemo/web/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/test/java/cn/itcast/redisdemo/RedisDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/entity/AccountFreeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/mapper/AccountFreezeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/AccountTCCService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/service/impl/AccountTCCServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/java/cn/itcast/account/web/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/account-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/client/AccountClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/client/StorageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/StorageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/entity/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/mapper/StorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/java/cn/itcast/storage/web/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seata-demo/storage-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/CloudStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/CloudStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/clients/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/clients/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/mapper/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestIo/src/com/testio/io1/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestIo/src/com/testio/io1/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestJDBC/src/com/test/jdbc1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestJDBC/src/com/test/jdbc1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestThread/src/com/test3/thread3/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestThread/src/com/test3/thread3/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestThread/src/com/test3/thread4/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestThread/src/com/test3/thread4/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestIo/com/testio/io1/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestIo/com/testio/io1/Test02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestIo/com/testio/io6/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestIo/com/testio/io6/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestIo/com/testio/io6/TestRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestIo/com/testio/io6/TestRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestJDBC/com/test/jdbc1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestJDBC/com/test/jdbc1/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestThread/com/test3/thread3/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestThread/com/test3/thread3/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletconfig/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servletconfig/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletcontext/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servletcontext/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-redis/src/main/resources/com/lzp/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-redis/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/Springboot01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
+  <component name="ProjectId" id="2BvP5FYSJlurER4u2qHKf9LirNV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Idea_workspace/Javase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42068964&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\Javase\TestJDBC2\lib" />
+      <recent name="D:\Idea_workspace\Javase\JDBC2\src\com\test\dao" />
+      <recent name="D:\Idea_workspace\Javase\JDBC2\lib" />
+      <recent name="D:\Idea_workspace\Javase\TestThread\src\com\test3\thread5" />
+      <recent name="D:\Idea_workspace\Javase\TestThread\src\com\test3\thread4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\Javase\TestJDBC2\lib" />
+      <recent name="D:\Idea_workspace\Javase\TestJDBC\lib" />
+      <recent name="D:\Idea_workspace\Javase" />
+      <recent name="D:\Idea_workspace\Javase\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.test.jdbc1.Test">
+    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testio.io3.Test" />
+      <module name="TestIo" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testio.io3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReceive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.network6.TestReceive" />
+      <module name="TestWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.network6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.network6.TestSend" />
+      <module name="TestWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.network6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.jdbc1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.jdbc1.Test" />
+      <module name="TestJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.jdbc1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.network5.TestReceive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.network5.TestReceive" />
+      <module name="TestWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.network5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.network5.TestSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.network5.TestSend" />
+      <module name="TestWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.network5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.com.testio.io3.Test2" />
+      <item itemvalue="Application.TestReceive" />
+      <item itemvalue="Application.TestSend" />
+      <item itemvalue="Application.com.test.jdbc1.Test" />
+      <item itemvalue="Application.com.test.network5.TestReceive" />
+      <item itemvalue="Application.com.test.network5.TestSend" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.test.jdbc1.Test" />
+        <item itemvalue="Application.com.test.network5.TestReceive" />
+        <item itemvalue="Application.com.test.network5.TestSend" />
+        <item itemvalue="Application.TestReceive" />
+        <item itemvalue="Application.TestSend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\黎志平\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91963cf6-2f54-41a7-a2cf-a1029bf8c029" name="Changes" comment="" />
+      <created>1657783400908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657783400908</updated>
+      <workItem from="1663467772016" duration="117000" />
+      <workItem from="1663470020867" duration="11000" />
+      <workItem from="1663914868943" duration="2181000" />
+      <workItem from="1665045294900" duration="48000" />
+      <workItem from="1665104282978" duration="65000" />
+      <workItem from="1665754751452" duration="36000" />
+      <workItem from="1673149457677" duration="1979000" />
+      <workItem from="1673400972290" duration="596000" />
+      <workItem from="1673659651432" duration="155000" />
+      <workItem from="1690356978722" duration="4745000" />
+      <workItem from="1690376797556" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

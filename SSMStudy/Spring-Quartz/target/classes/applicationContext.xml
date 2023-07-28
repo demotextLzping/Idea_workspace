@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                           http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+
+    <bean id="task" class="com.lzp.DoSomethingTask"/>
+    <bean id="taskDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="name" value="myName"/>
+        <property name="targetMethod" value="execute"/>
+        <property name="targetObject" ref="task"/>
+    </bean>
+
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="name" value="myTrigger"/>
+<!--        设置运行时间为3秒-->
+        <property name="cronExpression" value="*/3 * * * * ?"/>
+        <property name="jobDetail" ref="taskDetail"/>
+    </bean>
+
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <array>
+                <ref bean="cronTrigger"/>
+            </array>
+        </property>
+    </bean>
+</beans>

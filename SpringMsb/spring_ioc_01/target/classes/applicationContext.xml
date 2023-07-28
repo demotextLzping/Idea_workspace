@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--    bean标签-->
+        <bean id="user1" class="com.lzp.bean.User" lazy-init="false" scope="prototype"/>
+
+    <!--DI 无参-->
+    <bean id="user2" class="com.lzp.bean.User">
+        <property name="userid" value="1"/>
+        <property name="uname" value="zhangsan"/>
+        <property name="password" value="1111"/>
+    </bean>
+
+    <!--DI 有参 name-value-->
+    <bean id="user3" class="com.lzp.bean.User">
+        <constructor-arg name="userid" value="1"/>
+        <constructor-arg name="uname" value="zhangsan"/>
+        <constructor-arg name="password" value="1111"/>
+    </bean>
+
+    <!--DI 有参 index-value-->
+    <bean id="user4" class="com.lzp.bean.User">
+        <constructor-arg index="0" value="2"/>
+        <constructor-arg index="1" value="lisi"/>
+        <constructor-arg index="2" value="2222"/>
+    </bean>
+    <!--DI 有参 p-->
+    <bean id="user5" class="com.lzp.bean.User" p:userid="3" p:uname="wangwu" p:password="3333"/>
+    <!--DI 有参 c-->
+    <bean id="user6" class="com.lzp.bean.User" c:userid="4" c:uname="zhaoliu" c:password="4444"/>
+
+
+</beans>

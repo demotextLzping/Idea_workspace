@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e463d94-8cf8-44b2-b3ce-b86b740c1a09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/main/java/com/lzp/HttpClientDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/test/java/com/lzp/httpclient/HttpClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/java/com/lzp/HttpClientServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/java/com/lzp/controller/demoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/test/java/com/lzp/httpclientserver/HttpClientServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test01/NewPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test01/OldPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test01/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Panda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test03/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test03/SmartAudi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test03/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/artifacts/ajax_jQuery_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/artifacts/ajax_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/libraries/gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/libraries/gson_2_8_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/src/main/java/com/lzp/servlet/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/src/main/java/com/lzp/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/src/main/java/com/lzp/servlet/unameCheckServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/web/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/web/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/web/testJson.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/ajax_jQuery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/servlet/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/servlet/loadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/servlet/unameCheckServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/testLoad.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/testLoad2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study5/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/jedis/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/resources/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/java/com/lzp/SpringbootFileuploaadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/java/com/lzp/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/java/com/lzp/controller/successController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/static/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/test/java/com/lzp/springbootfileuploaad/SpringbootFileuploaadApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/SpringbootMybatisplusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/serice/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/serice/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/SpringbootAnnoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/config/MyInterceptorRegist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/css/demoCss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/img/demoImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/js/demoJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/test/java/com/lzp/springbootanno/SpringbootAnnoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot01/src/main/java/com/lzp/Springboot01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot01/src/main/java/com/lzp/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/java/com/lzp/Springboot02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/java/com/lzp/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/public/demoPublic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/static/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/templates/demoTemplates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/test/java/com/lzp/springboot02/Springboot02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/Springboot03Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/interceptor/MyInterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/mybatis/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/test/java/com/lzp/springboot03/Springboot03ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/SpringbootMyBatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/controller/EmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/controller/freeMarkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/mybatis/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/static/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/show.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/showEmp.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/showEmpIf.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/showEmpMap.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/test/java/com/example/springboot_mybatis/SpringbootMyBatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/artifacts/springmvc_02_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/AjaxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/PathController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/TestRestFul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testChangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testPOJOController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/pojo/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/util/StringToDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/staticPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/testPOJOPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/forwardPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/redirectPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/static/css/aaa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/static/img/pho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/static/js/bbb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/testDataPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/testRestPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/test/java/com/lzp/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/controller/ScopeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/failed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/showDataPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/test/java/com/lzp/test/TestFindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/config/MyHandlerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/config/globalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/exceptionHandler/globalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/exception.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/failed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/test/java/com/lzp/test/TestFindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/mapper/PlayerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/pojo/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/service/impl/PlayerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/com/lzp/mapper/PlayerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/html/showPlayer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/js/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/showPlayer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAttenClass/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAttenClass/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAttenClass/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAttenClass/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaImprove/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaImprove/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/test/java/com/lzp/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/test/java/com/lzp/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../attenClass/out/production/attenClass/com/study/study3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../attenClass/out/production/attenClass/com/study/study3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc_01/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2IZM12rrdk60MbB27Q1Rtru8c4j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.JedisTest.testStandalone">
+    <configuration name="JedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.jedis.JedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.testCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.jedis.JedisTest" />
+      <option name="METHOD_NAME" value="testCluster" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.testPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.jedis.JedisTest" />
+      <option name="METHOD_NAME" value="testPool" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.testStandalone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.jedis.JedisTest" />
+      <option name="METHOD_NAME" value="testStandalone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JedisTest.testStandalone" />
+        <item itemvalue="JUnit.JedisTest.testCluster" />
+        <item itemvalue="JUnit.JedisTest.test" />
+        <item itemvalue="JUnit.JedisTest.testPool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e463d94-8cf8-44b2-b3ce-b86b740c1a09" name="Changes" comment="" />
+      <created>1670384435047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670384435047</updated>
+      <workItem from="1670384436295" duration="6483000" />
+      <workItem from="1670396648698" duration="745000" />
+      <workItem from="1670416404912" duration="185000" />
+      <workItem from="1670418322872" duration="643000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

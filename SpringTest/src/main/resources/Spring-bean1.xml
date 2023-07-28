@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="us1" class="com.lzp.pojo.User"/>-->
+
+<!--    <bean id="us2" class="com.lzp.pojo.User">-->
+<!--        <constructor-arg name="id" value="101"/>-->
+<!--        <constructor-arg name="name" value="李四"/>-->
+<!--        <constructor-arg name="age" value="22"/>-->
+<!--        <constructor-arg name="sex" value="女"/>-->
+<!--    </bean>-->
+
+</beans>

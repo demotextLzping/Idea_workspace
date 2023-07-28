@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/lang
+       http://www.springframework.org/schema/lang/spring-lang.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd">
+    <context:property-placeholder local-override="true" location="jdbc.properties"/>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+        <property name="url" value="${url}"/>
+        <property name="driverClassName" value="${driver}"/>
+        <property name="initialSize" value="1"/>
+    </bean>
+    <!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+    <!--        <property name="username" value="root"/>-->
+    <!--        <property name="password" value="123456"/>-->
+    <!--        <property name="url"-->
+    <!--                  value="jdbc:mysql://127.0.0.1:3306/mytestdb?useSSL=false&amp;userUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai"/>-->
+    <!--        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>-->
+    <!--        <property name="initialSize" value="1"/>-->
+    <!--    </bean>-->
+</beans>

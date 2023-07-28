@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+<!--创建UserServiceImpl对象-->
+    <bean id="userServiceImpl" class="com.lzp.aop.SpringXML.UserServiceImpl"/>
+<!--    创建Advice对象-->
+    <bean id="advice" class="com.lzp.aop.SpringXML.Advice"/>
+<!--进行动态织入-->
+    <aop:config>
+        <aop:aspect ref="advice">
+            <!--定义切点-->
+            <aop:pointcut id="Pointcut" expression="execution(* com.lzp.aop.SpringXML.UserServiceImpl.*(..))"/>
+            <!--定义通知-->
+            <aop:before method="check" pointcut-ref="Pointcut"/>
+            <aop:after method="log" pointcut-ref="Pointcut"/>
+        </aop:aspect>
+    </aop:config>
+
+
+
+
+</beans>

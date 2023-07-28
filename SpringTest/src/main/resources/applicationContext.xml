@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    <bean id="us5" class="com.lzp.pojo.User" p:id="11111" p:name="11111" p:age="11111" p:sex="11111"/>-->
+    <!--    <bean id="us6" class="com.lzp.pojo.User" p:id="22222" p:name="22222" p:age="22222" p:sex="22222"/>-->
+    <!--    null值和转义字符-->
+    <!--    <bean id="us7" class="com.lzp.pojo.User">-->
+    <!--        <property name="id">-->
+    <!--            <null></null>-->
+    <!--        </property>-->
+    <!--        <property name="name" value="&lt;李四&gt;"/>-->
+    <!--        <property name="age" value="22"/>-->
+    <!--        <property name="sex" value="女&amp;女"/>-->
+    <!--    </bean>-->
+
+    <!--    使用无参构造-->
+    <!--    <bean id="us1" class="com.lzp.pojo.User"/>-->
+    <!--    使用有参构造-->
+    <!--    name==》构造方法参数名相同，而不是属性名
+            index==》下标0开始，对应构造方法的参数下标
+            type==》参数类型，要顺序对应每个属性
+            value==》 一般为简单类型赋值
+            ref==》一般为引用数据类型赋值-->
+<!--        <bean id="us2" class="com.lzp.pojo.User">-->
+<!--                    <constructor-arg name="id" value="101"/>-->
+<!--                    <constructor-arg name="name" value="李四"/>-->
+<!--                    <constructor-arg name="age" value="22"/>-->
+<!--                    <constructor-arg name="sex" value="女"/>-->
+
+    <!--        <constructor-arg index="0" value="101"/>-->
+    <!--        <constructor-arg index="1" value="李四"/>-->
+    <!--        <constructor-arg index="2" value="22"/>-->
+    <!--        <constructor-arg index="3" value="女"/>-->
+
+    <!--                <constructor-arg type="java.lang.Integer" value="101"/>-->
+    <!--                <constructor-arg type="java.lang.String" value="李四"/>-->
+    <!--                <constructor-arg type="java.lang.Integer" value="22"/>-->
+    <!--                <constructor-arg type="java.lang.String" value="女"/>-->
+<!--        </bean>-->
+
+    <!--    工厂类+无参构造-->
+    <!--    <bean id="factory" class="com.lzp.factory.UserFactory"/>-->
+    <!--    <bean id="us3" factory-bean="factory" factory-method="getInstance"/>-->
+
+    <!--    静态工厂类+无参构造-->
+    <!--    <bean id="us4" class="com.lzp.factory.UserFactory" factory-method="getInstance"/>-->
+
+    <!--    工厂类+有参构造-->
+    <!--    <bean id="factory" class="com.lzp.factory.UserFactory"/>-->
+    <!--    <bean id="us5" factory-bean="factory" factory-method="getInstance">-->
+    <!--        <constructor-arg name="user" ref="us2"/>-->
+    <!--    </bean>-->
+
+<!--       静态 工厂类+有参构造-->
+<!--        <bean id="us6" class="com.lzp.factory.UserFactory"  factory-method="getInstance">-->
+<!--            <constructor-arg name="user" ref="us2"/>-->
+<!--        </bean>-->
+
+    <!--创建Student对象-->
+    <bean id="stu" class="com.lzp.pojo.Student" lazy-init="true" init-method="init" destroy-method="des"
+          scope="prototype">
+        <property name="id" value="101"/>
+        <property name="name" value="101"/>
+        <property name="age" value="101"/>
+        <property name="sex" value="101"/>
+    </bean>
+<!--    配置后置通知-->
+    <bean id="myBeanProcesser" class="com.lzp.beanProcesser.MyBeanProcesser"/>
+</beans>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzp.mapper.ItemsMapper">
+<!--    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
+    <cache/>
+    <select id="selectByIid" parameterType="int" resultType="items">
+        select * from items where iid=#{iid}
+    </select>
+    <insert id="insertInfo" parameterType="items" flushCache="true">
+        insert into items (iid,name,detail,price)
+        values
+        (#{iid},#{name},#{detail},#{price})
+
+    </insert>
+</mapper>

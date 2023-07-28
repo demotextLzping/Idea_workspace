@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ajax:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6673a37-5410-4b3b-b652-675fdc603b0f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/src/main/java/com/lzp/cloudalibabanacos9002/CloudAlibabaNacos9001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/src/test/java/com/lzp/cloudalibabanacos9002/CloudAlibabaNacos9001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9002/src/main/java/com/lzp/cloudalibabanacos9002/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/src/main/java/com/lzp/cloudalibabanacos9003/CloudAlibabaNacos9003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/src/main/java/com/lzp/cloudalibabanacos9003/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9003/src/test/java/com/lzp/cloudalibabanacos9003/CloudAlibabaNacos9003ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/src/main/java/com/lzp/cloudalibabaconfig3377/CloudAlibabaConfig3377Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/src/main/java/com/lzp/cloudalibabaconfig3377/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-config-3377/src/test/java/com/lzp/cloudalibabaconfig3377/CloudAlibabaConfig3377ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/src/main/java/com/lzp/cloudalibabaconsumer8083/CloudAlibabaConsumer8083Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/src/main/java/com/lzp/cloudalibabaconsumer8083/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/src/test/java/com/lzp/cloudalibabaconsumer8083/CloudAlibabaConsumer8083ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-consumer-8083/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAttenClass/out/production/JavaAttenClass/com/work/work4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAttenClass/out/production/JavaAttenClass/com/work/work4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAttenClass/src/com/work/work4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/work/work4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/JavaEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/JavaEE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/WEB-INF/classes/com/testservlet/RequestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/artifacts/JavaEE_war_exploded/WEB-INF/classes/com/testservlet/RequestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/out/production/JavaEE/com/testservlet/RequestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/out/production/JavaEE/com/testservlet/RequestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/src/com/testservlet/RequestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/src/com/testservlet/RequestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis1/src/main/resources/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis1/src/main/resources/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisDao/src/main/resources/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisDao/src/main/resources/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisMapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisMapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/EmpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisRetulyType/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisRetulyType/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9002/src/main/java/com/lzp/cloudalibabanacos9002/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/src/main/java/com/lzp/cloudalibabanacos9002/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9002/src/main/java/com/lzp/cloudalibabanacos9002/controller/demoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/cloudAlibaba-Nacos-9001/src/main/java/com/lzp/cloudalibabanacos9002/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudAlibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudAlibaba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_aop_01/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_aop_01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/java/com/lzp/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/java/com/lzp/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/main/resources/applicationContext8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/test/java/com/lzp/test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_01/src/test/java/com/lzp/test/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/src/main/java/com/lzp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/src/main/java/com/lzp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_ioc_02/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_jdbctemplate_01/src/main/java/com/lzp/dao/impl/EmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_jdbctemplate_01/src/main/java/com/lzp/dao/impl/EmpDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_jdbctemplate_01/src/main/resorces/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_jdbctemplate_01/src/main/resorces/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_jdbctemplate_01/src/main/resorces/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/main/java/com/lzp/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/main/java/com/lzp/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/test/java/com/lzp/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/test/java/com/lzp/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMybatis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMybatis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringProxy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringProxy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzp/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzp/servlet/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzp/servlet/TestServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzp/servlet/unameCheckServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/generateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../arithmetic/src/generateMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../attenClass/out/production/attenClass/com/study/study7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../attenClass/out/production/attenClass/com/study/study7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenTest2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenTest2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenWebTest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenWebTest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/src/main/java/com/lzp/test/GeneratorSqlMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/src/main/java/com/lzp/test/GeneratorSqlMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/target/classes/com/lzp/test/GeneratorSqlMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/target/classes/com/lzp/test/GeneratorSqlMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverseEngineering/target/reverseEngineering-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../reverseEngineering/target/reverseEngineering-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/Springboot01Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/Springboot01Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/staticPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/staticPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/springmvc_02/target/springmvc_02.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/target/springmvc_02.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/springmvc_02/target/springmvc_02/WEB-INF/view/staticPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/target/springmvc_02/WEB-INF/view/staticPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/springmvc_02/target/springmvc_02/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/target/springmvc_02/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/ssm_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/showPlayer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/showPlayer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/target/classes/com/lzp/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/target/classes/com/lzp/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/WEB-INF/classes/com/lzp/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/WEB-INF/classes/com/lzp/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/js/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/showPlayer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/uploading/target/uploading-1.0-SNAPSHOT/showPlayer.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HANdiAZ7kPc6lsd08UQvPgnKc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Idea_workspace/ajax&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17471264&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\ajax" />
+      <recent name="D:\Idea_workspace\ajaxq\ajax_jQuery\web" />
+      <recent name="D:\Idea_workspace\ajaxq\ajax_jQuery\src" />
+      <recent name="D:\Idea_workspace\ajax\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\ajax\web" />
+      <recent name="D:\Idea_workspace\ajax\web\WEB-INF" />
+      <recent name="D:\Idea_workspace\ajax\web\WEB-INF\lib" />
+      <recent name="D:\Idea_workspace\ajax\web\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8">
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ajax" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ajax:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ajax" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="42e505ec-b0bd-48f3-ac90-a18b79a39ae5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49311" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ajax:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat_jQuery" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ajax_jQuery:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ajax_jQuery" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d372a7f4-72a6-41ef-83da-030901c9143c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50346" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ajax_jQuery:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="Tomcat Server.Tomcat_jQuery" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6673a37-5410-4b3b-b652-675fdc603b0f" name="Changes" comment="" />
+      <created>1667724017147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667724017147</updated>
+      <workItem from="1667724018541" duration="531000" />
+      <workItem from="1668689192934" duration="118000" />
+      <workItem from="1668732600226" duration="8602000" />
+      <workItem from="1668768004861" duration="7524000" />
+      <workItem from="1668845133936" duration="119000" />
+      <workItem from="1670320627378" duration="271000" />
+      <workItem from="1670323869278" duration="885000" />
+      <workItem from="1670324829237" duration="868000" />
+      <workItem from="1670907052618" duration="264000" />
+      <workItem from="1681632066168" duration="1409000" />
+      <workItem from="1683285417627" duration="4000" />
+      <workItem from="1685526862422" duration="20000" />
+      <workItem from="1686139834029" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

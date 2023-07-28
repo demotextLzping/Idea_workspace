@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regist</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#uploadFile").click(function () {
+                var photoFile = $("#photo")[0].files[0];
+                if (photoFile == undefined) {
+                    alert("还未选择任何文件！")
+                    return;
+                }
+                var formData = new FormData();
+                formData.append("headPhoto", photoFile)
+                $.ajax({
+                    type: "post",
+                    data: formData,
+                    url: "file/upload",
+                    processData: false,
+                    contentType: false,
+                    success: function (result) {
+                        alert(result.message)
+                        $("#headImg").attr("src", result.newFileName);
+                    },
+                    //进度条代码
+                    xhr: function () {
+                        var xhr = new XMLHttpRequest();
+                        xhr.upload.addEventListener('progress', function (e) {
+                            console.log(e);
+                            var progressRate = (e.loaded / e.total) * 100 + '%';
+                            $('.progress > div').css('width', progressRate);
+                        })
+                        return xhr;
+                    }
+                })
+            })
+        })
+    </script>
+    <style>
+        .progress {
+            width: 210px;
+            height: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 10px 0px;
+            overflow: hidden;
+        }
+
+        .progress > div {
+            width: 0px;
+            height: 100%;
+            background-color: hotpink;
+            transition: all .3s ease;
+        }
+    </style>
+</head>
+<body>
+<form action="success" method="post" enctype="multipart/form-data">
+    <p>账号: <input type="text" name="name"/></p>
+    <p>密码: <input type="password" name="password"/></p>
+    <p>昵称: <input type="text" name="nickname"/></p>
+    <p>头像: <input id="photo" name="photo" type="file"/>
+    <p>多选头像: <input id="photos" name="photos" type="file" multiple/><br/>
+        <img id="headImg" style="width: 210px;height: 180px; border: 1px solid gray" alt="您还未上传图片"><br/>
+        <a id="uploadFile" href="javascript:void(0)">立即上传</a>
+    <div class="progress">
+        <div></div>
+    </div>
+    </p>
+    <p><input type="submit" name="注册" style="width: 80px"/></p>
+</form>
+</body>
+</html>

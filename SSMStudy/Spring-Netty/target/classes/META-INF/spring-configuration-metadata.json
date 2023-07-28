@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "netty",
+      "type": "com.lzp.springnetty.config.NettyProperties",
+      "sourceType": "com.lzp.springnetty.config.NettyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "netty.backlog",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lzp.springnetty.config.NettyProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "netty.boss-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lzp.springnetty.config.NettyProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "netty.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.lzp.springnetty.config.NettyProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "netty.tcp-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lzp.springnetty.config.NettyProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "netty.worker-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lzp.springnetty.config.NettyProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

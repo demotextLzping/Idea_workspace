@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzp.mapper.DeptMapper">
+    <resultMap id="DeptAndEmp" type="dept">
+        <id column="deptno" property="deptno" />
+        <result column="dname" property="dname" />
+        <result column="loc" property="loc" />
+        <collection property="emps" ofType="emp" >
+            <id column="empno" property="empno" />
+            <result column="ename" property="ename" />
+            <result column="sal" property="sal" />
+        </collection>
+    </resultMap>
+    <select id="findDeptById" parameterType="int" resultMap="DeptAndEmp">
+        select d.deptno, d.dname, d.loc, e.empno, e.ename, e.sal
+        from emp e inner join dept d on d.deptno = e.deptno
+        where d.deptno=#{id}
+    </select>
+</mapper>

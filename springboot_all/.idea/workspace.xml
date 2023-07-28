@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0821cad-54ca-488b-afba-12acf3877684" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyBatisMapper/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMStudy/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMsb/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/TestSelectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/mapper/ScMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/pojo/Sc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/service/ScService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/service/impl/ScServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/java/com/lzp/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/resources/mapper/ScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestSelect/src/test/java/com/lzp/testselect/TestSelectApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/mapper/ScMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/pojo/Sc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/ScService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/impl/ScServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/com/lzp/mapper/ScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/com/lzp/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/test/java/com/lzp/test/result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/mapper/ScMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/pojo/Sc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/selectTestBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/service/ScService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/service/impl/ScServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/java/com/lzp/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/resources/com/lzp/mapper/ScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/resources/com/lzp/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTestBoot/src/test/java/test/selectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot01/target/classes/com/lzp/Springboot01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot01/target/classes/com/lzp/controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MyBatisMapper" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/springboot03/src/main/java/com/lzp/controller/ThymeleafController.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2Hl2G6RD7xKDWc2EybXgs0pbkdq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Idea_workspace/springboot_all/springboot03/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24252874&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;83c8cbff4a8187e45bd5fc617234c871&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\springboot_all\springboot03\src\main\resources" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot03\src\main\resources\mybatis" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot03\src\main\java\com\lzp" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot_MyBatis\src\main\java\com\lzp" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot_MyBatis\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\springboot_all\springboot02\src\main\resources\static" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot02\src\main\resources" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot02\src\main\resources\config" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot02\src\main\java\com\lzp\config" />
+      <recent name="D:\Idea_workspace\springboot_all\springboot02" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lzp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzp.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Springboot03Application">
+    <configuration name="Springboot03ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.springboot03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.springboot03" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.springboot03.Springboot03ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzp.Springboot01Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzp.Springboot02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springboot03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzp.Springboot03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springboot_MyBatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzp.SpringbootMyBatisApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springboot_integration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzp.SpringbootIntegrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Springboot03ApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Springboot03Application" />
+      <item itemvalue="Spring Boot.SpringbootMyBatisApplication" />
+      <item itemvalue="Spring Boot.Springboot02Application" />
+      <item itemvalue="Spring Boot.Springboot01Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Springboot03ApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.Springboot01Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0821cad-54ca-488b-afba-12acf3877684" name="Changes" comment="" />
+      <created>1668845251634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668845251634</updated>
+      <workItem from="1668845254134" duration="4035000" />
+      <workItem from="1668925984526" duration="11186000" />
+      <workItem from="1668998945310" duration="1199000" />
+      <workItem from="1669172930492" duration="1998000" />
+      <workItem from="1669184889919" duration="15631000" />
+      <workItem from="1669253548444" duration="9498000" />
+      <workItem from="1669359546983" duration="1194000" />
+      <workItem from="1669443001471" duration="7422000" />
+      <workItem from="1680834018983" duration="1646000" />
+      <workItem from="1680867713328" duration="276000" />
+      <workItem from="1680867999978" duration="1200000" />
+      <workItem from="1681566023083" duration="218000" />
+      <workItem from="1681605156878" duration="2833000" />
+      <workItem from="1681866465748" duration="995000" />
+      <workItem from="1689397818737" duration="656000" />
+      <workItem from="1689405969077" duration="1585000" />
+      <workItem from="1689410801724" duration="2462000" />
+      <workItem from="1689413881521" duration="66000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

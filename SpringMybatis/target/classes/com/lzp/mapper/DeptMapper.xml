@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzp.mapper.DeptMapper">
+  <insert id="insertDept" parameterType="com.lzp.pojo.Dept">
+    insert into dept values (#{deptno},#{dname},#{loc})
+  </insert>
+  <delete id="deleteDept" parameterType="int">
+    delete from dept where deptno=#{deptno}
+  </delete>
+
+  <select id="selectAll" resultType="com.lzp.pojo.Dept">
+    select * from dept
+  </select>
+</mapper>

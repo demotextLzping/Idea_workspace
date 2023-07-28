@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c" xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="student" class="com.lzp.bean.Student">
+        <!--数组注入-->
+        <property name="books">
+            <array>
+                <value>java</value>
+                <value>python</value>
+            </array>
+        </property>
+        <!--list集合注入-->
+        <property name="bookList">
+            <list>
+                <value>java</value>
+                <value>python</value>
+            </list>
+        </property>
+        <!--set集合注入-->
+        <property name="bookSet">
+            <set>
+                <value>java</value>
+                <value>python</value>
+            </set>
+        </property>
+        <!--map注入-->
+        <property name="bookMap">
+            <map>
+                <entry key="java" value="lzp"/>
+                <entry key="python" value="lzp"/>
+            </map>
+        </property>
+        <!--引用集合类型注入-->
+        <property name="listBook">
+            <list>
+                <ref bean="book1"/>
+                <ref bean="book2"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="book1" class="com.lzp.bean.Book" p:name="java" p:author="lzp"/>
+    <bean id="book2" class="com.lzp.bean.Book" p:name="python" p:author="lzp"/>
+
+    <!--util公共集合 可以使用list/set等-->
+
+    <util:list id="book_list">
+        <bean id="book1" class="com.lzp.bean.Book" p:name="java" p:author="lzp"/>
+        <bean id="book2" class="com.lzp.bean.Book" p:name="python" p:author="lzp"/>
+    </util:list>
+    <bean id="student2" class="com.lzp.bean.Student">
+        <property name="listBook" ref="book_list"/>
+    </bean>
+
+</beans>

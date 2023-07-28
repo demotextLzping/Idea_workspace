@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--bean引入外部bean-->
+    <bean id="date1" class="java.util.Date"/>
+
+    <bean id="mouse1" class="com.lzp.bean.Mouse">
+        <property name="name" value="Jerry1"/>
+        <property name="birthday" ref="date1"/>
+    </bean>
+    <!--bean引入内部bean-->
+    <bean id="cat1" class="com.lzp.bean.Cat">
+        <property name="name" value="Tom"/>
+        <property name="mouse" ref="mouse1"/>
+    </bean>
+
+    <bean id="cat2" class="com.lzp.bean.Cat">
+        <property name="name" value="Tom"/>
+        <property name="mouse">
+            <bean class="com.lzp.bean.Mouse">
+                <property name="name" value="Jerry2"/>
+                <!-- <property name="birthday" ref="date1"/>-->
+                <property name="birthday">
+                    <bean class="java.util.Date"/>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <!--级联引入bean-->
+    <bean id="mouse2" class="com.lzp.bean.Mouse"/>
+    <bean id="cat3" class="com.lzp.bean.Cat">
+        <property name="name" value="Tom"/>
+        <property name="mouse" ref="mouse2"/>
+        <!--底层是使用反射调用set和get方法-->
+        <property name="mouse.name" value="jerry3"/>
+        <property name="mouse.birthday" ref="date1"/>
+    </bean>
+</beans>

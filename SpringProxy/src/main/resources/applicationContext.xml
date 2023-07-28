@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="user" class="com.lzp.pojo.User">-->
+<!--        <constructor-arg name="uid" value="111"/>-->
+<!--        <constructor-arg name="uname" value="张三"/>-->
+<!--        <constructor-arg name="uage" value="23"/>-->
+<!--        <constructor-arg name="usex" value="男"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;创建第一阶段代理对象&ndash;&gt;-->
+<!--    <bean id="usi" class="com.lzp.aop.proxy2.UserServiceImpl"/>-->
+<!--    &lt;!&ndash;创建第二阶段代理对象&ndash;&gt;-->
+<!--    <bean id="proxy" class="com.lzp.aop.proxy.UserServiceProxy"/>-->
+<!--    &lt;!&ndash;创建JDK代理对象 &ndash;&gt;-->
+<!--    <bean id="jdkproxy" class="com.lzp.aop.proxy2.JDKProxy"/>-->
+    <!--创建CGLIB代理对象 -->
+    <bean id="cglib" class="com.lzp.aop.proxy3.CGLIBProxy"/>
+</beans>

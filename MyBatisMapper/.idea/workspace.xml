@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd06fe6c-6d74-4717-aeee-babb6ac7f783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SSMStudy/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMsb/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/mapper/ScMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/pojo/Sc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/ScService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/impl/ScServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/java/com/lzp/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/com/lzp/mapper/ScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/com/lzp/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selectTest/src/test/java/com/lzp/test/result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/feign-api/src/main/java/cn/itcast/feign/config/DefaultFeignConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/order-service/target/classes/cn/itcast/order/web/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudStudy/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSMStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/Springboot01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_all/springboot01/target/classes/com/lzp/controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/target/ssm_01.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="MyBatisConfig" />
+        <option value="MyBatisMapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2FKdWa1Q8YhPc4joqqlrzSVyeKs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Idea_workspace/MyBatisMapper/target/classes/com/lzp/mapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19885057",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\MyBatisMapper\target\classes\com\lzp\mapper" />
+      <recent name="D:\Idea_workspace\MyBatisMapper\src\main\java\com\lzp\mapper" />
+      <recent name="D:\Idea_workspace\MyBatisMapper\src\main\resources\com.lzp.mapper" />
+      <recent name="D:\Idea_workspace\MyBatisMapper\src\main\java\com\lzp\pojo" />
+      <recent name="D:\Idea_workspace\MyBatisMapper\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\MyBatisMapper\src\main\resources\com.lzp.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzp.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyMapperTest.selectAllDept">
+    <configuration name="MyMapperTest.LikeSelectEmpBySaleName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisMapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.test.MyMapperTest" />
+      <option name="METHOD_NAME" value="LikeSelectEmpBySaleName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapperTest.selectAllDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisMapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.test.MyMapperTest" />
+      <option name="METHOD_NAME" value="selectAllDept" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapperTest.selectEmpByForeach3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisMapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.test.MyMapperTest" />
+      <option name="METHOD_NAME" value="selectEmpByForeach3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapperTest.selectEmpByMapInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisMapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.test.MyMapperTest" />
+      <option name="METHOD_NAME" value="selectEmpByMapInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMapperTest.selectEmpBySaleName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisMapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lzp.test.MyMapperTest" />
+      <option name="METHOD_NAME" value="selectEmpBySaleName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyMapperTest.selectEmpBySaleName" />
+        <item itemvalue="JUnit.MyMapperTest.selectEmpByMapInfo" />
+        <item itemvalue="JUnit.MyMapperTest.selectEmpByForeach3" />
+        <item itemvalue="JUnit.MyMapperTest.selectAllDept" />
+        <item itemvalue="JUnit.MyMapperTest.LikeSelectEmpBySaleName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd06fe6c-6d74-4717-aeee-babb6ac7f783" name="Changes" comment="" />
+      <created>1664244743291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664244743291</updated>
+      <workItem from="1664244744631" duration="7637000" />
+      <workItem from="1664255706420" duration="46000" />
+      <workItem from="1664255762189" duration="3361000" />
+      <workItem from="1664411425649" duration="276000" />
+      <workItem from="1664411710590" duration="911000" />
+      <workItem from="1664413857240" duration="117000" />
+      <workItem from="1664413981372" duration="673000" />
+      <workItem from="1664414676780" duration="2444000" />
+      <workItem from="1664418985522" duration="13189000" />
+      <workItem from="1664443365615" duration="14000" />
+      <workItem from="1664498421430" duration="7428000" />
+      <workItem from="1664931659298" duration="634000" />
+      <workItem from="1667742412327" duration="60000" />
+      <workItem from="1668732594645" duration="6000" />
+      <workItem from="1677629902507" duration="371000" />
+      <workItem from="1677635591720" duration="18000" />
+      <workItem from="1677636104935" duration="50000" />
+      <workItem from="1677640566846" duration="10000" />
+      <workItem from="1677641571935" duration="91000" />
+      <workItem from="1678413954709" duration="419000" />
+      <workItem from="1678414394142" duration="288000" />
+      <workItem from="1678414695332" duration="598000" />
+      <workItem from="1678841015046" duration="57000" />
+      <workItem from="1679363586368" duration="109000" />
+      <workItem from="1689411061276" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

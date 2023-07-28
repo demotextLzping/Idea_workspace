@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzp.mapper.EmpMapper">
+    <sql id="sqlid">
+        select *
+        from emp
+    </sql>
+
+    <select id="selectEmpBySaleName" parameterType="emp" resultType="emp">
+        <include refid="sqlid">
+        </include>
+        where sal>#{sal}
+        <if test="ename!=null">
+            and ename=#{ename}
+        </if>
+    </select>
+
+    <select id="LikeSelectEmpBySaleName" parameterType="emp" resultType="emp">
+        <include refid="sqlid"></include>
+        where sal>=#{sal}
+        <if test="ename!=null">
+            and ename like "%${ename}%"
+        </if>
+    </select>
+
+    <select id="LikeSelectEmpBySaleName2" parameterType="emp" resultType="emp">
+        select * from emp where sal>=#{sal}
+        <if test="ename!=null">
+            and ename like concat('%','${ename}','%')
+        </if>
+        <if test="deptno!=null">
+            and deptno=#{deptno}
+        </if>
+    </select>
+
+    <select id="LikeSelectEmpBySaleName3" parameterType="emp" resultType="emp">
+        select * from emp where sal>=#{sal}
+        <if test="ename!=null">
+            and ename like concat('%',#{ename},'%')
+        </if>
+        <if test="deptno!=null">
+            and deptno=#{deptno}
+        </if>
+    </select>
+
+    <select id="LikeSelectEmpBySaleName4" parameterType="emp" resultType="emp">
+        <!--CDATA字符转义-->
+        select * from emp where sal <![CDATA[<=]]>#{sal}
+        <if test="ename!=null">
+            and ename like concat('%',#{ename},'%')
+        </if>
+        <if test="deptno!=null">
+            and deptno=#{deptno}
+        </if>
+    </select>
+
+
+    <select id="LikeSelectEmpByInfo" parameterType="emp" resultType="emp">
+        select * from emp
+        <where>
+            <if test="ename!=null">
+                and ename like concat('%',#{ename},'%')
+            </if>
+            <if test="sal!=null">
+                and sal <![CDATA[<=]]>#{sal}
+            </if>
+            <if test="deptno!=null">
+                and deptno=#{deptno}
+            </if>
+        </where>
+    </select>
+
+    <select id="LikeSelectEmpByInfo2" parameterType="emp" resultType="emp">
+        select * from emp where
+        <choose>
+            <when test="sal!=null">
+                sal <![CDATA[<=]]>#{sal}
+            </when>
+            <when test="ename!=null">
+                ename like concat('%',#{ename},'%')
+            </when>
+            <otherwise>
+                deptno=#{deptno}
+            </otherwise>
+        </choose>
+    </select>
+
+
+    <insert id="insertEmp" parameterType="emp">
+        <!--        insert into emp (列名，列名) values (值，值);-->
+        insert into emp
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="ename!=null">
+                ename,
+            </if>
+            <if test="mgr!=null">
+                mgr,
+            </if>
+            <if test="sal!=null">
+                sal,
+            </if>
+            <if test="deptno!=null">
+                deptno,
+            </if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="ename!=null">
+                #{ename},
+            </if>
+            <if test="mgr!=null">
+                #{mgr},
+            </if>
+            <if test="sal!=null">
+                #{sal},
+            </if>
+            <if test="deptno!=null">
+                #{deptno},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateEmp">
+        <!--    update emp set  列名=值,列名=值 where 列名=值,列名=值-->
+        update emp
+        <set>
+            <if test="sal!=null">
+                sal=#{sal},
+            </if>
+            <if test="mgr!=null">
+                mgr=#{mgr},
+            </if>
+            <if test="job!=null">
+                job=#{job},
+            </if>
+        </set>
+        <where>
+            <if test="empno!=null">
+                and empno=#{empno}
+            </if>
+            <if test="deptno!=null">
+                and deptno=#{deptno}
+            </if>
+        </where>
+    </update>
+
+    <select id="selectEmpByForeach" parameterType="java.util.List" resultType="emp">
+        select * from emp
+        <where>
+            <foreach collection="list" open="(" close=")" item="empno" separator="or">
+                empno=#{empno}
+            </foreach>
+        </where>
+    </select>
+
+    <select id="selectEmpByForeach2" parameterType="java.util.List" resultType="emp">
+        select * from emp where deptno in
+        <foreach collection="array" open="(" close=")" item="deptno" separator=",">
+            #{deptno}
+        </foreach>
+    </select>
+
+    <select id="selectEmpByForeach3" parameterType="java.util.Map" resultType="com.lzp.pojo.Emp">
+        select * from emp where deptno in
+        <foreach collection="empnos" open="(" close=")" item="deptno" separator=",">
+            #{deptno}
+        </foreach>
+    </select>
+
+    <select id="selectEmpByMapInfo" parameterType="java.util.Map" resultType="emp">
+        <bind name="name" value="'%'+{enamekey}+'%'"/>
+        <include refid="sqlid"></include>
+        <where>
+            deptno=#{deptnokey}
+            or
+            ename like #{name}
+            and
+            empno in
+            <foreach collection="empnos" open="(" close=")" separator="," item="no">
+                #{no}
+            </foreach>
+        </where>
+    </select>
+</mapper>

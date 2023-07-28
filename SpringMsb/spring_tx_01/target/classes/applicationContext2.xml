@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/lang
+       http://www.springframework.org/schema/lang/spring-lang.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--注解扫描-->
+    <context:component-scan base-package="com.lzp"/>
+    <!--    读取jdbc配置文件-->
+    <context:property-placeholder local-override="true" location="classpath:jdbc.properties"/>
+    <!--    配置数据库参数-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${name}"/>
+        <property name="password" value="${password}"/>
+        <property name="url" value="${url}"/>
+        <property name="driverClassName" value="${driver}"/>
+    </bean>
+    <!--    配置jdbcTemplate，并向里面注入DataSource-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!--        通过set方法注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--    声明事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--        注入数据源，和jdbcTemplate注入的数据源相同-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+<!--        配置通知-->
+    <tx:advice id="txAdvice">
+        <tx:attributes>
+            <!--            <tx:method name="transMoney"/>-->
+            <tx:method name="*Money"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--    配置aop-->
+    <aop:config>
+        <!--    配置切入点-->
+        <aop:pointcut id="pt" expression="execution(* com.lzp.service.AccountService.transMoney(..))"/>
+        <!--    配置切面-->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt"/>
+    </aop:config>
+
+
+</beans>
